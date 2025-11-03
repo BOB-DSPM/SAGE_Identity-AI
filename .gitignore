@@ -51,7 +51,7 @@ optimizer.pt
 scheduler.pt
 rng_state.pth
 trainer_state.json
-
+xlmr-large-min.tar.zst
 # ===== BUT: 압축본은 올리기 허용 =====
-!*.tar.zst
-!*.tar
+*.tar.zst
+*.tar
