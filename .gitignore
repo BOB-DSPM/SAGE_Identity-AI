@@ -1,0 +1,57 @@
+# ===== Python / Project =====
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+*.log
+.venv/
+env/
+dist/
+build/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Env / Secrets
+.env
+*.env
+
+# ===== Data (선택: 원하면 주석 처리) =====
+data/
+*.jsonl
+*.csv
+*.tsv
+*.zip
+
+# ===== MLflow / Artifacts (로컬 전용) =====
+mlruns/
+artifacts/
+
+# ===== Model artifacts: "폴더/낱개 파일" 전부 무시 =====
+# (로컬 체크포인트/토크나이저/학습 산출물 등)
+xlmr-large-min/
+checkpoint-*/
+*.safetensors
+*.bin
+*.onnx
+tokenizer.json
+tokenizer_config.json
+special_tokens_map.json
+vocab.txt
+vocab.json
+merges.txt
+config.json
+metrics.json
+seqeval_report.txt
+training_args.bin
+optimizer.pt
+scheduler.pt
+rng_state.pth
+trainer_state.json
+
+# ===== BUT: 압축본은 올리기 허용 =====
+!*.tar.zst
+!*.tar
