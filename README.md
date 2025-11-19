@@ -89,12 +89,10 @@ SAGE_Identity-AI/
 │   ├── model.safetensors
 │   ├── tokenizer.json
 │   └── ...
-├── .env.example              # 환경 변수 템플릿
 ├── .gitignore                # Git 제외 파일 목록
 ├── dockerfile                # Docker 이미지 빌드 파일
 ├── README.md                 # 프로젝트 문서
 ├── requirements.txt          # Python 의존성 목록
-├── run.sh                    # 실행 스크립트
 ├── xlmr-large-min.tar.zst    # 모델 압축 파일
 └── xlmr-large-min.tar.zst.sha256
 ```
